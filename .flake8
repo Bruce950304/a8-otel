@@ -1,0 +1,4 @@
+[flake8]
+exclude = venv,.venv,__pycache__,.git
+per-file-ignores =
+    test_*.py: S101
