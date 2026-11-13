@@ -17,4 +17,4 @@ def checkout():
 
 if __name__ == "__main__":
     debug = os.environ.get("FLASK_DEBUG") == "1"
-    app.run(host="127.0.0.1", port=5000, debug=true)
+    app.run(host="127.0.0.1", port=5000, debug=True)
